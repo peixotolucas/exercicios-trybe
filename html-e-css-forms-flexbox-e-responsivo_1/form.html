@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <title>Formulário</title>
+</head>
+<body>
+  <h1>FORMULÁRIO</h1>
+  <fieldset>
+    <form action="" method="GET">
+      <input type="text" name="name" placeholder="digite seu nome" maxlength="40" required>
+      <br><br>
+      <input type="text" name="email" placeholder="digite seu email" maxlength="50" required>
+      <br><br>
+      <input type="text" name="cpf" placeholder="digite seu CPF" maxlength="11" required>
+      <br><br>
+      <input type="text" name="adress" placeholder="digite seu endereço" maxlength="200" required>
+      <br><br>
+      <input type="text" name="city" placeholder="digite sua cidade" maxlength="28" required>
+      <br><br>
+      <label for="">Estado onde você mora:
+        <select name="estado" id="input-estado">
+          <option value="sp">São Paulo</option>
+          <option value="pe">Pernambuco</option>
+          <option value="ce">Ceará</option>
+          <option value="mg">Minas Gerais</option>
+          <option value="rs">Rio Grande do Sul</option>
+        </select>
+      </label>
+       <br><br>
+       <label for="">Tipo de Residência
+        <input type="radio" name="tipo" value="Apt">Apartamento
+        <input type="radio" name="tipo" value="Casa">Casa
+       </label>
+      <button type="submit">OK</button>
+    </form>
+  </fieldset>
+  <br>
+  <fieldset>
+    <label for="">Resumo do currículo<br>
+      <textarea name="resumé" id="curriculum" cols="30" rows="10" maxlength="1000" required></textarea>
+    </label><br><br>
+    <h3>Cargo atual</h3>
+    <input type="text" name="job" placeholder="cargo atual" maxlength="40" required>
+    <br><br>
+    <label for="">Descrição do cargo<br>
+      <textarea name="job desc" id="skills" cols="30" rows="10" maxlength="500" required></textarea>
+    </label>
+    <br><br>
+    <label for="">Data de início
+      <input type="date" name="time" id="history" required>
+    </label>
+
+    
+  </fieldset>
+  <script>
+  </script>
+</body>
