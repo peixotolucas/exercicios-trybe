@@ -1,3 +1,4 @@
+//Exercise objects with javascript - part 1.
 const order = {
     name: 'Rafael Andrade',
     phoneNumber: '11-98763-1416',
@@ -55,3 +56,11 @@ const order = {
 	};
 
 	orderModifier(order);
+
+const pessoa = {Name: 'Rod Stewart',
+Profession: 'Musician', Gender: 'Male'}
+
+const personality = {Courage: 5.5, Spirity: 5, Sensuality: 5.5}
+
+Object.assign(pessoa, personality)
+console.log(pessoa)
